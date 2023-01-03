@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>교보문고_투데이</title>
+    <title>교보문고</title>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
     a{text-decoration:none;color:#000;}
-    .page_top{display:block;width:5rem;height:5rem;text-align:center;line-height:4.5em;position:fixed;right:15px;bottom:15px;border-radius:50px;background-color:rgba(34, 34, 34, 0.685);color:#fff;font-size:18px;}
-    .page_top:hover{font-weight:bold;color:#fff;}
-    .family_site_wrap{position:absolute;right:200px;top:25px;}
-    .footer_sns{position:absolute;right:15px;top:25px;}
     </style>
     <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -24,9 +20,13 @@
         <!------------------------- Header ------------------------->
         <header id="header" class="header">
 
-                <nav class="navbar bg-light fixed-top shadow">
+                <nav class="navbar bg-light shadow">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html"><h1 class="logo">교보문고</h1></a>
+                        <a class="navbar-brand" href="index.html">
+                            <h1 class="logo">
+                                <img src="images/logo.png" alt="교보문고" style="width:50%;" class="m-2">
+                            </h1>
+                        </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -60,9 +60,9 @@
                                     SNS
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Youtube</a></li>
-                                        <li><a class="dropdown-item" href="#">Facebook</a></li>
-                                        <li><a class="dropdown-item" href="#">Instagram</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="images/sns_yt.png" alt="Youtube" style="width:2em;"> Youtube</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="images/sns_fb.png" alt="Facebook" style="width:2em;"> Facebook</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="images/sns_ig.png" alt="Instagram" style="width:2em;"> Instagram</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -102,7 +102,7 @@
         <main id="content" class="content">
             <h2 class="hide">투데이</h2>
 
-            <section class="issue_sec">
+            <section class="issue_sec mb-5 mt-4">
                 <h3 class="hide">주요 소식</h3>
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                         <div class="carousel-indicators">
@@ -210,7 +210,7 @@
                       </div>
             </section>
 
-            <section class="myclips_sec">
+            <section class="myclips_sec mb-5">
                 <div style="display:flex;justify-content:space-between;">
                     <h3 class="fs-4 fw-bold">My Clips</h3>
                     <!-- Button trigger modal -->
@@ -2865,13 +2865,6 @@
                     <li><a class="dropdown-item" href="#">교보아카데미</a></li>
                 </ul>
             </div>
-
-                <dl class="d-flex footer_sns">
-                    <dt class="hide">SNS</dt>
-                        <dd><a href="#"><img src="images/sns_yt.png" alt="유튜브"></a></dd>
-                        <dd><a href="#"><img src="images/sns_fb.png" alt="페이스북"></a></dd>
-                        <dd><a href="#"><img src="images/sns_ig.png" alt="인스타그램"></a></dd>
-                </dl>
 
                     <dl class="safepay">
                         <dt class="hide">구매안전서비스</dt>

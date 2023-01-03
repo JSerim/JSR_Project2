@@ -215,7 +215,7 @@ function sample6_execDaumPostcode() {
         }
     
         // 우편번호와 주소 정보를 해당 필드에 넣는다.
-        document.getElementById("post").value = data.zonecode;
+        document.getElementById("ps_code").value = data.zonecode;
         document.getElementById("b_addr").value = addr;
         // 커서를 상세주소 필드로 이동한다.
         document.getElementById("d_addr").focus();
