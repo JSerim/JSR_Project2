@@ -1,0 +1,75 @@
+/* ================ 초기화 ================ */
+body,header,main,footer,div,p,a,h1,h2,h3,h4,nav,ul,li,ol,dl,dt,dd,span,button,form,fieldset,legend,label,input,article,section,img,address{
+    padding:0;
+    margin:0;
+}
+body, h1, h2, h3{font-family:"맑은 고딕", Arial, Helvetica, sans-serif; font-size:16px; font-weight:normal;}
+ul, li{list-style:none;}
+address{font-style:normal;}
+a{text-decoration:none;color:#000;}
+fieldset, input{border:none}
+button{border:none}
+/* 공통 */
+.hide{position:absolute; left:-9999px; top:-9999px;}
+
+/* ================ 디자인 ================ */
+/* --------------------------------- header --------------------------------- */
+.logo{
+    display:block;
+    background:url(../images/logo.png) no-repeat top;
+    background-size:100%;
+    width:150px;
+    height:60px;
+    text-indent:-9999px;
+}
+
+main{
+    position:relative;
+    top:95px;
+}
+/* --------------------------------- article --------------------------------- */
+/* --------------------------------- main --------------------------------- */
+/* --------------------------------- footer --------------------------------- */
+.footer{
+    position:relative;
+    top:130px;
+}
+.footer_logo{
+    display:block;
+    background:url(../images/logo.png) no-repeat;
+    background-size:100%;
+    width:150px;
+    height:60px;
+    text-indent:-9999px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+.site_info ul{
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+    padding:15px;
+}
+.site_info a{
+    padding:10px;
+}
+.footer_sns img{
+    box-shadow:none;
+    margin-right:15px;
+    width:40px;
+    height:40px;
+}
+.copy{
+    font-weight:bold;
+}
+.isms img{
+    width:60px;
+    height:60px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.isms{
+    position:absolute;
+    right:20px;
+    bottom:40px;
+}
+

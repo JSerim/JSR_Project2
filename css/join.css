@@ -1,0 +1,101 @@
+/* ================ 초기화 ================ */
+body,header,main,footer,div,p,a,h1,h2,h3,h4,nav,ul,li,ol,dl,dt,dd,span,button,form,fieldset,legend,label,input,article,section,img,address{
+    padding:0;
+    margin:0;
+}
+body, h1, h2, h3{font-family:"맑은 고딕", Arial, Helvetica, sans-serif; font-size:16px; font-weight:normal;}
+ul, li{list-style:none;}
+address{font-style:normal;}
+a{text-decoration:none;color:#000;}
+fieldset{border:none}
+button{border:none}
+/* 공통 */
+.hide{position:absolute; left:-9999px; top:-9999px;}
+
+/* ================ 디자인 ================ */
+.page_top{display:block;width:5rem;height:5rem;text-align:center;line-height:4.5em;position:fixed;right:15px;bottom:15px;border-radius:50px;background-color:rgba(34, 34, 34, 0.685);color:#fff;font-size:18px;}
+.page_top:hover{font-weight:bold;color:#fff;}
+
+/* --------------------------------- header --------------------------------- */
+.logo{
+    display:block;
+    background:url(../images/logo.png) no-repeat top;
+    background-size:100%;
+    width:150px;
+    height:60px;
+    text-indent:-9999px;
+}
+/* --------------------------------- article --------------------------------- */
+/* --------------------------------- main --------------------------------- */
+main{
+    position:relative;
+    top:200px;
+    width:800px;
+    margin:auto;
+    padding:10px;
+    box-sizing:border-box;
+}
+input{border:1px solid rgb(189, 189, 189);border-radius:10px;}
+label{width:150px;font-size:18px;}
+form p, .agree_wrap{border-bottom:1px solid #eee;padding:10px;}
+legend{font-size:20px;font-weight:bold;}
+input{padding:5px 10px;width:450px;}
+form span{position:relative;left:155px;font-size:16px;color:#999;}
+.addr_wrap input{margin-bottom:10px;}
+.agree_wrap p{border:none;}
+.agree_wrap{border-bottom:1px solid #eee;padding:10px;margin-bottom:20px;}
+.agree_wrap label{width:300px;}
+.agree_wrap input{width:auto;}
+.agree_txt{position:relative;left:350px;top:-55px;display:inline-block;}
+.agree_ckbox{position:relative;top:-60px;}
+.agree_ckbox span{position:relative;left:0;}
+.agree_wrap{height:120px;}
+.agree_wrap .agree{width:18px;height:18px;position:relative;top:3px;}
+.submit{width:250px;padding:10px;font-size:18px;font-weight:bold;border-radius:10px;box-shadow:1px 1px 3px 1px #999;position:relative;left:250px;}
+.show_pwd{background-color:#fff;padding:0 5px 3px 5px;position:relative;top:-2px;}
+.search_addr{padding:5px 15px;margin-left:10px;font-weight:bold;border-radius:10px;font-size:15px;border:1px solid #999;}
+.err_txt{color:red;}
+/* --------------------------------- footer --------------------------------- */
+.footer{
+    position:relative;
+    top:350px;
+}
+.footer_logo{
+    display:block;
+    background:url(../images/logo.png) no-repeat;
+    background-size:100%;
+    width:150px;
+    height:60px;
+    text-indent:-9999px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+.site_info ul{
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+    padding:15px;
+}
+.site_info a{
+    padding:10px;
+}
+.footer_sns img{
+    box-shadow:none;
+    margin-right:15px;
+    width:40px;
+    height:40px;
+}
+.copy{
+    font-weight:bold;
+}
+.isms img{
+    width:60px;
+    height:60px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.isms{
+    position:absolute;
+    right:20px;
+    bottom:40px;
+}
+

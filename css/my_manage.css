@@ -1,0 +1,161 @@
+/* ================ 초기화 ================ */
+body,header,main,footer,div,p,a,h1,h2,h3,h4,nav,ul,li,ol,dl,dt,dd,span,button,form,fieldset,legend,label,input,article,section,img,address{
+    padding:0;
+    margin:0;
+}
+body, h1, h2, h3{font-family:"맑은 고딕", Arial, Helvetica, sans-serif; font-size:16px; font-weight:normal;}
+ul, li{list-style:none;}
+address{font-style:normal;}
+a{text-decoration:none;color:#000;}
+fieldset, input{border:none}
+button{border:none}
+/* 공통 */
+.hide{position:absolute; left:-9999px; top:-9999px;}
+
+/* ================ 디자인 ================ */
+/* --------------------------------- header --------------------------------- */
+.logo{
+    display:block;
+    background:url(../images/logo.png) no-repeat top;
+    background-size:100%;
+    width:150px;
+    height:60px;
+    text-indent:-9999px;
+}
+
+/* --------------------------------- article --------------------------------- */
+/* --------------------------------- main --------------------------------- */
+main{
+    position:relative;
+    top:95px;
+}
+.my_picks{position:relative;top:50px;width:200px;margin:auto;margin-bottom:50px;}
+.my_picks_delete img{
+    box-shadow:none;
+}
+.delete img{
+    box-shadow:none;
+    background:#fff;
+    padding:5px;
+}
+.my_picks_delete{
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:5px;
+    margin-bottom:20px;
+    position:relative;
+    left:88%;
+}
+table{text-align:center;}
+table input{width:20px;height:20px;}
+.table .name{text-align:left;}
+.num_h{width:5%;}
+.img_h{width:15%;}
+.name_h{width:35%;}
+.price_h{width:20%;}
+.choice_h{width:15%;}
+.delete_h{width:10%;}
+.top_block{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    top:50px;
+    padding-left:0;
+}
+.top_block li{
+    border:1px solid #ccc;
+    border-radius:10px;
+    background:rgb(245, 245, 245);
+    width:13em;
+    height:10em;
+    padding:20px;
+    box-sizing:border-box;
+}
+.top_block li img{
+    width:60px;
+    height:60px;
+    box-shadow:none;
+}
+.top_block a{
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#000;
+    margin-right:10px;
+}
+.top_block_title{
+    display:flex;
+    justify-content:space-between;
+}
+.top_block_data{
+    position:relative;
+    top:10px;
+    left:135px;
+}
+.bottom_block{
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    position:relative;
+    top:60px;
+}
+.bottom_block a{
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#000;
+    margin-right:10px;
+}
+.bottom_block li{
+    width:13em;
+    border:1px solid #ddd;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+/* --------------------------------- footer --------------------------------- */
+.footer{
+    position:relative;
+    top:280px;
+}
+.footer_logo{
+    display:block;
+    background:url(../images/logo.png) no-repeat;
+    background-size:100%;
+    width:150px;
+    height:60px;
+    text-indent:-9999px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+.site_info ul{
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+    padding:15px;
+}
+.site_info a{
+    padding:10px;
+}
+.footer_sns img{
+    box-shadow:none;
+    margin-right:15px;
+    width:40px;
+    height:40px;
+}
+.copy{
+    font-weight:bold;
+}
+.isms img{
+    width:60px;
+    height:60px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.isms{
+    position:absolute;
+    right:20px;
+    bottom:40px;
+}
+
